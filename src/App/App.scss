@@ -9,7 +9,7 @@ $y: 300px;
   width: 900px;
   background: gray;
   .img {
-    background-image: url("../assets/landscap.jpg");
+    background-image: url("../../static/assets/landscap.jpg");
     background-repeat: no-repeat;
     width: $x;
     height: $y;
@@ -23,7 +23,7 @@ $y: 300px;
     border: 1px solid #ffffff;
   }
   &.winner-board{
-    background-image: url("../assets/landscap.jpg");
+    background-image: url("../../static/assets/landscap.jpg");
     background-repeat: no-repeat;
     height: 900px;
   }
