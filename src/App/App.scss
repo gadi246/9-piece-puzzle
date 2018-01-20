@@ -1,0 +1,37 @@
+$x: 300px;
+$y: 300px;
+
+*{
+  box-sizing: border-box;
+}
+
+.board{
+  width: 900px;
+  background: gray;
+  .img {
+    background-image: url("../assets/landscap.jpg");
+    background-repeat: no-repeat;
+    width: $x;
+    height: $y;
+    cursor: pointer;
+    transition: .3s all ease-in-out;
+  }
+  .blank{
+    width: $x;
+    height: $y;
+    background: gray;
+    border: 1px solid #ffffff;
+  }
+  &.winner-board{
+    background-image: url("../assets/landscap.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+  }
+ }
+
+.winner{
+  color: red;
+  position: absolute;
+  letter-spacing: 30px;
+  font-size: 80px;
+}
