@@ -2,7 +2,6 @@ import * as styles from './App.scss';
 import {Component, createEl} from '../lib/component';
 import ImageItem from './Components/ImageItem';
 import {flat} from '../services/gameService';
-console.log('commit this');
 
 export class App extends Component {
   constructor(props) {

@@ -1,5 +1,3 @@
-console.log('yes');
-
 
 export class Component {
   constructor({elm, ...props}) {
