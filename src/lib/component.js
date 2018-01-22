@@ -1,3 +1,4 @@
+console.log('yes');
 
 
 export class Component {

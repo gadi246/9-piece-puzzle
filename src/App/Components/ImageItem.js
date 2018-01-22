@@ -1,5 +1,5 @@
 import {Component} from '../../lib/component';
-
+console.log('yes');
 class ImageItem extends Component {
 
   render(style = '') {
