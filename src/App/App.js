@@ -35,7 +35,7 @@ export class App extends Component {
 
   compare() {
     const current = flat(this.props.data).map(el => el.id).join('');
-    console.log(current, this.props.data);
+    console.log(current, this.props.data, 'somestuff');
     if (current.toString() === this.winnerSequence.toString()) {
       this.isWinner = true;
     }
